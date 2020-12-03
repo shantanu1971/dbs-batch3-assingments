@@ -1,0 +1,14 @@
+
+Create a class as follows:
+
+public class Target{
+
+public String doConcat(String s1, String s2){
+
+return s1+" "+s2;
+
+}
+
+}
+
+1. Apply an aspect named ConcatLogger to the above doConcat(..) method,containing a before advice and an after returning advice. The before advice prints the input parameters of doConcat(..) method and After Returning advice prints the concatenated String return value.
